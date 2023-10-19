@@ -92,8 +92,10 @@
             <td></td>
         </tr>
         </tbody>
-        </table>
-        </div>
+   </table>
+<button onclick="back()" class="btn">Back TO See Users</button>
+        <button onclick="backto()" class="btn">Back TO See Users Post</button>
+   </div>
         </body>
         </html>
         <script>
@@ -114,4 +116,12 @@
              });
              document.getElementById("table-body").innerHTML = tabledata;
       })
+              function back()
+        {
+            window.location.href = 'index.html' 
+        }
+        function backto()
+        {
+            window.location.href = 'ass.html' 
+        }
         </script>
